@@ -1,0 +1,100 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-image: url("MicrosoftTeams-image\ \(1\).png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    font-family: 'Karla', sans-serif;
+    color: white;
+    flex-direction: column;
+}
+
+header{
+    height: 12%;
+    background-color: #00000077;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+}
+
+.links a{
+    user-select: none;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: all 1s;
+}
+
+.links a:hover{
+    color: red;
+
+}
+
+.links ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+main{
+    flex-grow: 1;
+    padding: 80px 500px 50px 100px;
+}
+
+main h1{
+    font-size: 750%;
+    opacity: 0,5;
+}
+
+main p{
+    font-size: 148%;
+    padding-right: 150px;
+}
+
+hr{
+    border-color: red;
+    height: 80px;
+}
+
+nav.divisao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+}
+
+main h3{
+    transform: rotate(270deg);
+    color: red;
+    font-size: 35px;
+}
+
+nav.infos{
+    padding-top: 30px;
+}
+
+.infos ul{
+     gap: 20px; 
+    list-style-type: none;
+    display: flex;
+    flex-direction: row; 
+}
+
+/* main hr{
+    color: red;
+} */
+
+footer{
+    text-align: center;
+    justify-content: center;
+    height: 5%;
+}
