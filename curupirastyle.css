@@ -15,11 +15,13 @@ body{
     font-family: 'Karla', sans-serif;
     color: white;
     flex-direction: column;
+    background-color: #00000066;
+    background-blend-mode: darken;
 }
 
 header{
     height: 12%;
-    background-color: #00000077;
+    background-color: #00000080;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,13 +53,25 @@ main{
 }
 
 main h1{
-    font-size: 750%;
-    opacity: 0,5;
+    position: relative;
+    font-size: 100px;
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+}
+
+main h1::after {
+    content: "Curupira";
+    -webkit-text-stroke: 3px #111;
+    color: transparent;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    z-index: -1;
 }
 
 main p{
     font-size: 148%;
-    padding-right: 150px;
+    padding-right: 300px;
 }
 
 hr{
@@ -68,7 +82,7 @@ hr{
 nav.divisao{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items:center;
     list-style-type: none;
 }
 
@@ -77,6 +91,43 @@ main h3{
     color: red;
     font-size: 35px;
 }
+
+/* .sobreAtor{
+    display:flex;
+    flex-direction: column;
+    border-right: solid 3px red;
+    margin-right: 35px;
+    width: 150px;
+    font-style: italic;
+}
+
+.ator{
+    font-size: 10px;
+}
+
+.sobrePersonagem{
+    display: flex;
+    flex-direction: column;
+    border-right: solid 3px red;
+    margin-right: 35px;
+    width: 150px;
+    font-style: italic;
+}
+
+.personagem{
+    font-size: 10px;
+}
+
+.sobreEntidade{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    font-style: italic;
+}
+
+.entidade{
+    font-size: 10px;
+} */
 
 nav.infos{
     padding-top: 30px;
