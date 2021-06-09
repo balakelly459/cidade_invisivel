@@ -8,7 +8,7 @@ body{
     width: 100vw;
     height: 100vh;
     display: flex;
-    background-image: url("MicrosoftTeams-image\ \(1\).png");
+    background-image: url("boto.jpg");
     background-repeat: no-repeat;
     background-position: right top;
     background-size: cover;
@@ -60,7 +60,7 @@ main h1{
 }
 
 main h1::after {
-    content: "Curupira";
+    content: "Boto cor-de-rosa";
     -webkit-text-stroke: 3px #111;
     color: transparent;
     position: absolute;
