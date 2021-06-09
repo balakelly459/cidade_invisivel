@@ -1,11 +1,31 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.menu {
+    display: flex;
+    gap: 1px;
 }
 
-nav{
+.submenu{
+    margin-top: 1px;
+    display: none;
+    position: absolute;
+    padding-top: 22px;
+}
+
+.submenu a {
+    width: 110%;
     display: flex;
-    justify-content: center;
-    margin-top: 20px;
+    justify-content: flex-start;
+    background-color: #0000008a;
+    float: inline-end; 
+    position: relative;
+    padding: 2.3px 0;
+    padding-left: 5px;
+    border-left: 3px solid transparent;
+}
+
+.menu li:hover > .submenu{
+    display: block;
+}
+
+.submenu a:hover {
+    border-left: 3px solid #c22222e1;
 }
