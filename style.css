@@ -16,6 +16,7 @@ body{
     flex-direction: column;
     font-family: 'Karla', sans-serif;
     color: white;
+    overflow: hidden;
 }
 
 header{
@@ -51,7 +52,6 @@ header{
 }
 
 main{
-    /* background-color: tomato; */
     padding:  20vh 10vw;
     flex-grow: 1;
 }
